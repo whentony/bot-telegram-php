@@ -1,0 +1,22 @@
+{
+    "name": "whentony/gato-galatico-bot",
+    "description": "Bot",
+    "authors": [
+        {
+            "name": "whentony",
+            "email": "whentony.ferreira@gmail.com"
+        }
+    ],
+    "require": {
+        "telegram-bot/api": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+
+}
